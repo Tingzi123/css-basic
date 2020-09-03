@@ -53,3 +53,40 @@ p {
     width: 60%;
 }
 
+h1,h2 {
+    font: Georgia;
+}
+
+p {
+    font: Helvetica;
+    font-size: 18px;
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+p:first-line {
+    font-weight: bolder;
+}
+
+.image {
+    background-image: url('../img/background-img.jpg')
+}
+
+.caption{
+    background: rgba(255,255,255, 0.75);
+    font-style: italic;
+    color: black;
+}
+
+.caption a:hover {
+    text-decoration: none;
+    color: purple;
+}
